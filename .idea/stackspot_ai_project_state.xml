@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectStateService">
+    <option name="data">
+      <map>
+        <entry key="vitorgomes7001@gmail.com">
+          <value>
+            <ProjectStateData>
+              <option name="conversationId" value="01J9WM09P5QSA4XQYV3VFRGM2Y" />
+              <option name="indexedFiles">
+                <map>
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/pom.xml" value="14997" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/src/main/resources/openapi/backoffice-openapi.yaml" value="14006" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/README.md" value="15782" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/pom.xml" value="15781" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/backoffice/api/RestApplication.java" value="13945" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/backoffice/api/RestResourceRoot.java" value="13946" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/backoffice/api/model/Article.java" value="13930" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/backoffice/api/model/Category.java" value="13951" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/backoffice/api/model/Table.java" value="13950" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/smartbar/backoffice/RestApplication.java" value="15786" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/smartbar/backoffice/RestResourceRoot.java" value="15787" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/smartbar/backoffice/api/ArticlesApi.java" value="15788" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/smartbar/backoffice/api/CategoriesApi.java" value="15789" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/smartbar/backoffice/api/TablesApi.java" value="15779" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/smartbar/backoffice/api/model/Article.java" value="15791" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/smartbar/backoffice/api/model/Category.java" value="15792" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/com/example/smartbar/backoffice/api/model/Table.java" value="15790" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/org/openapitools/api/ArticlesApi.java" value="13948" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/org/openapitools/api/CategoriesApi.java" value="13949" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/java/org/openapitools/api/TablesApi.java" value="13947" />
+                  <entry key="$PROJECT_DIR$/smartbar-backoffice/target/generated-sources/openapi/src/main/openapi/openapi.yaml" value="15785" />
+                </map>
+              </option>
+              <option name="projectId" value="01J9WM09P3882KK2RYQ9GZEG2K" />
+            </ProjectStateData>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
