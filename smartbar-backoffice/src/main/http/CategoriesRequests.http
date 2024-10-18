@@ -13,6 +13,6 @@ Content-Type: application/json
 ### Get all
 GET {{url}}/categories
 ### Get single
-GET {{url}}/categories/4711
+GET {{url}}/categorie s/4711
 ### Delete
 DELETE {{url}}/categories/4711
