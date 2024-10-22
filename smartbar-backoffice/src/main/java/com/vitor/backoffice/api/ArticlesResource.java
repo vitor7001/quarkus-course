@@ -1,23 +1,29 @@
-package com.example;
+package com.vitor.backoffice.api;
 
 import com.example.smartbar.backoffice.api.ArticlesApi;
 import com.example.smartbar.backoffice.api.model.Article;
+import com.vitor.backoffice.ArticlesService;
 import io.smallrye.common.annotation.NonBlocking;
+import jakarta.inject.Inject;
 import jakarta.ws.rs.core.Response;
 
 import java.net.URI;
 import java.util.List;
 
-@NonBlocking
 public class ArticlesResource implements ArticlesApi {
-    private final Article article = new Article().name("Chardonnay");
+    private final ArticlesService articlesService;
+
+    @Inject
+    public ArticlesResource(final ArticlesService articleService){
+        this.articlesService = articleService;
+    }
     @Override
     public Response articlesArticleIdDelete(String articleId) {
         return Response.ok().build();
     }
     @Override
     public Response articlesArticleIdGet(String articleId) {
-        return Response.ok(article).build();
+        return Response.ok(articlesService.get()).build();
     }
     @Override
     public Response articlesArticleIdPut(String articleId, Article article) {
@@ -25,7 +31,7 @@ public class ArticlesResource implements ArticlesApi {
     }
     @Override
     public Response articlesGet() {
-        return Response.ok(List.of(article)).build();
+        return Response.ok(articlesService.get()).build();
     }
     @Override
     public Response articlesPost(Article article) {

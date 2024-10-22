@@ -1,4 +1,4 @@
-package com.example;
+package com.vitor.backoffice.api;
 
 import com.example.smartbar.backoffice.api.TablesApi;
 import com.example.smartbar.backoffice.api.model.Table;
