@@ -1,6 +1,6 @@
-package com.vitor.backoffice;
+package com.vitor.backoffice.articles;
 
-import com.example.smartbar.backoffice.api.model.Article;
+import com.vitor.smartbar.backoffice.api.model.Article;
 import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped

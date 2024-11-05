@@ -1,7 +1,7 @@
 package com.example.smartbar.api;
 
-import com.example.smartbar.backoffice.api.model.Category;
-import com.vitor.backoffice.CategoriesService;
+import com.vitor.backoffice.categories.CategoriesService;
+import com.vitor.smartbar.backoffice.api.model.Category;
 import io.quarkus.test.InjectMock;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.path.json.JsonPath;

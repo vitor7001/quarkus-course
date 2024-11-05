@@ -1,6 +1,6 @@
-package com.vitor.backoffice;
+package com.vitor.backoffice.categories;
 
-import com.example.smartbar.backoffice.api.model.Category;
+import com.vitor.smartbar.backoffice.api.model.Category;
 import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped

@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
-  title: Smartbar Backoffice AP
-  description: Smartbar Backoffice AP
+  title: Smarbar Backoffice AP
+  description: Smarbar Backoffice AP
   version: 1.0.0
 paths:
   /categories:
@@ -10,11 +10,12 @@ paths:
         - Categories
       responses:
         200:
-          description: Succeeefully get categories
+          description: Success
           content:
             application/json:
               schema:
-                type: array
+                type:
+                  - array
                 items:
                   $ref: "#/components/schemas/category"
     post:
@@ -27,6 +28,7 @@ paths:
               $ref: "#/components/schemas/category"
       responses:
         201:
+          description: Success
           $ref: "#/components/responses/201"
   /categories/{categoryId}:
     parameters:
@@ -56,7 +58,7 @@ paths:
         - Categories
       responses:
         200:
-          description: Succeeefully get category
+          description: Success
           content:
             application/json:
               schema:
@@ -67,7 +69,7 @@ paths:
         - Articles
       responses:
         200:
-          description: Succeeefully get articles
+          description: Success
           content:
             application/json:
               schema:
@@ -113,7 +115,7 @@ paths:
         - Articles
       responses:
         200:
-          description: Succeeefully get article
+          description: Success
           content:
             application/json:
               schema:
@@ -124,13 +126,13 @@ paths:
         - Tables
       responses:
         200:
-          description: Succeeefully get tables
+          description: Success
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  $ref: "#/components/schemas/table"
+                  $ref: "#/components/schemas/apiTable"
     post:
       tags:
         - Tables
@@ -138,7 +140,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/table"
+              $ref: "#/components/schemas/apiTable"
       responses:
         201:
           $ref: "#/components/responses/201"
@@ -155,7 +157,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/table"
+              $ref: "#/components/schemas/apiTable"
       responses:
         200:
           description: Entity successfully updated
@@ -170,11 +172,11 @@ paths:
         - Tables
       responses:
         200:
-          description: Succeeefully get table
+          description: Success
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/table"
+                $ref: "#/components/schemas/apiTable"
 components:
   schemas:
     category:
@@ -195,13 +197,13 @@ components:
           type: string
         picture:
           type: string
-    table:
+    apiTable:
       type: object
       properties:
         name:
           type: string,
         seatCount:
-          type: string,
+          type: integer,
         active:
           type: boolean
   responses:

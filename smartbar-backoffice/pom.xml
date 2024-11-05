@@ -145,8 +145,8 @@
                         <configuration>
                             <inputSpec>${project.basedir}/src/main/resources/openapi/backoffice-openapi.yaml</inputSpec>
                             <generatorName>jaxrs-spec</generatorName>
-                            <apiPackage>com.example.smartbar.backoffice.api</apiPackage>
-                            <modelPackage>com.example.smartbar.backoffice.api.model</modelPackage>
+                            <apiPackage>com.vitor.smartbar.backoffice.api</apiPackage>
+                            <modelPackage>com.vitor.smartbar.backoffice.api.model</modelPackage>
                             <configOptions>
                                 <sourceFolder>src/main/java</sourceFolder>
                                 <useJakartaEe>true</useJakartaEe>
