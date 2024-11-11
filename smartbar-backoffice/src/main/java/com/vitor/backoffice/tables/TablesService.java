@@ -19,8 +19,10 @@ public class TablesService extends CrudService<Table> {
         super(entityManager);
     }
 
-    public ApiTable get() {
-        return new ApiTable().name("Berlin");
+    @Override
+    protected Class<Table> getEntityClass() {
+        return Table.class;
     }
+
 
 }

@@ -1,7 +1,7 @@
 package com.example.smartbar.api;
 
 import com.vitor.backoffice.categories.CategoriesService;
-import com.vitor.smartbar.backoffice.api.model.Category;
+import com.vitor.backoffice.categories.Category;
 import io.quarkus.test.InjectMock;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.path.json.JsonPath;
@@ -11,6 +11,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
+import java.util.List;
+
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 
@@ -18,11 +20,13 @@ import static org.hamcrest.CoreMatchers.is;
 class CategoriesResourceTest {
 
     @InjectMock
-    CategoriesService categoriesService;
+    CategoriesService categoriesServiceMock;
 
     @BeforeEach
-    void setUp(){
-        Mockito.when(categoriesService.get()).thenReturn(new Category().name("Mock"));
+    void setUp() {
+        final Category category = new Category();
+        category.setName("Mock");
+        Mockito.when(categoriesServiceMock.listAll()).thenReturn(List.of(category));
     }
 
     @Test
